@@ -1,0 +1,370 @@
+{
+  "explore": {
+    "heading": [
+      "Explore by category",
+      "See recently added titles",
+      "See popular titles"
+    ],
+    "body": [
+      {
+        "img": "images/entrepreneurship.png",
+        "name": "Entrepreneurship",
+        "path": "/selected"
+      },
+      {
+        "img": "images/politics.png",
+        "name": "Politics",
+        "path": "/Politics"
+      },
+      {
+        "img": "images/marketing.png",
+        "name": "Marketing & Sales",
+        "path": "/Marketing"
+      },
+      {
+        "img": "images/science.png",
+        "name": "Science",
+        "path": "/Science"
+      },
+      {
+        "img": "images/health.png",
+        "name": "Health & Nutrition",
+        "path": "/Health"
+      },
+      {
+        "img": "images/personal.png",
+        "name": "Personal Development",
+        "path": "/Personal"
+      },
+      {
+        "img": "images/economics.png",
+        "name": "Economics",
+        "path": "/Economics"
+      },
+      {
+        "img": "images/history.png",
+        "name": "History",
+        "path": "/History"
+      },
+      {
+        "img": "images/communication.png",
+        "name": "Communication Skills",
+        "path": "/Communication"
+      },
+      {
+        "img": "images/corporate.png",
+        "name": "Corporate Culture",
+        "path": "/Corporate"
+      },
+      {
+        "img": "images/motivation.png",
+        "name": "Motivation & Inspiration",
+        "path": "/Motivation"
+      },
+      {
+        "img": "images/money.png",
+        "name": "Money & Investments",
+        "path": "/Money"
+      },
+      {
+        "img": "images/psychology.png",
+        "name": "Psychology",
+        "path": "/Psychology"
+      },
+      {
+        "img": "images/productivity.png",
+        "name": "Productivity",
+        "path": "/Productivity"
+      },
+      {
+        "img": "images/relationship.png",
+        "name": "Sex & Relationship",
+        "path": "/Sex"
+      },
+      {
+        "img": "images/nature.png",
+        "name": "Nature & Environment",
+        "path": "/Nature"
+      },
+      {
+        "img": "images/career.png",
+        "name": "Career & Success",
+        "path": "/Career"
+      },
+      {
+        "img": "images/education.png",
+        "name": "Education",
+        "path": "/Education"
+      }
+    ]
+  },
+  "books": [
+    {
+      "img": "images/1.png",
+      "bookName": "Bring Your Human to Work",
+      "bookAuthor": "Erica Keswin",
+      "time": "13-minute read",
+      "reads": ""
+    },
+    {
+      "img": "images/11.png",
+      "bookName": "Employee to Entrepreneur",
+      "bookAuthor": "Steve Glaveski",
+      "time": "15-minute read",
+      "reads": ""
+    },
+    {
+      "img": "images/3.png",
+      "bookName": "Doesn’t Hurt to Ask",
+      "bookAuthor": "Trey Gowdy",
+      "time": "13-minute read",
+      "reads": "1.9k reads"
+    },
+    {
+      "img": "images/4.png",
+      "bookName": "The Fate of Food",
+      "bookAuthor": "Amanda Little",
+      "time": "12-minute read",
+      "reads": "16k reads"
+    },
+    {
+      "img": "images/5.png",
+      "bookName": "Lives of the Stoics",
+      "bookAuthor": "Ryan Holiday, Stephen Hansel",
+      "time": "13-minute read",
+      "reads": ""
+    },
+    {
+      "img": "images/6.png",
+      "bookName": "Loving Your Business",
+      "bookAuthor": "Debbie King",
+      "time": "13-minute read",
+      "reads": ""
+    },
+    {
+      "img": "images/2.png",
+      "bookName": "Beyond Entrepreneurship 2.0",
+      "bookAuthor": "Jim Collins & Bill Lazier",
+      "time": "13-minute read",
+      "reads": "1.9k reads"
+    },
+    {
+      "img": "images/7.png",
+      "bookName": "The Lonely Century",
+      "bookAuthor": "Noreena Hertz",
+      "time": "15-minute read",
+      "reads": "1.9k reads"
+    },
+    {
+      "img": "images/8.png",
+      "bookName": "Eat Better, Feel Better",
+      "bookAuthor": "Giada De Laurentiis",
+      "time": "13-minute read",
+      "reads": "1.9k reads"
+    },
+    {
+      "img": "images/9.png",
+      "bookName": "Dropshipping",
+      "bookAuthor": "James Moore",
+      "time": "12-minute read",
+      "reads": ""
+    }
+  ],
+  "banner": [
+    "Explore Books on entrepreneurship",
+    "Everything you need to know about thriving on a shoestring budget, making your first million, and hiring right from the start."
+  ],
+  "selectedPage": [
+    {
+      "title": "Trending blinks",
+      "books": [
+        {
+          "book": {
+            "img": "images/10.png",
+            "bookName": "Being Boss",
+            "bookAuthor": "Kathleen Shannon and Emily...",
+            "time": "13-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/2.png",
+            "bookName": "Beyond Entrepreneurship 2.0",
+            "bookAuthor": "Jim Collins & Bill Lazier",
+            "time": "13-minute read",
+            "reads": "1.9k reads"
+          },
+          "showAdd": "true",
+          "path": "/detail"
+        },
+        {
+          "book": {
+            "img": "images/11.png",
+            "bookName": "Employee to Entrepreneur",
+            "bookAuthor": "Steve Glaveski",
+            "time": "14-minute read",
+            "reads": "1.9k reads"
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/4.png",
+            "bookName": "The Fate of Food",
+            "bookAuthor": "Amanda Little",
+            "time": "12-minute read",
+            "reads": "16k reads"
+          },
+          "showAdd": "false",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/5.png",
+            "bookName": "Lives of the Stoics",
+            "bookAuthor": "Ryan Holiday, Stephen Hansel",
+            "time": "13-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/6.png",
+            "bookName": "Loving Your Business",
+            "bookAuthor": "Debbie King",
+            "time": "13-minute read",
+            "reads": ""
+          },
+          "showAdd": "false",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "title": "Just added",
+      "books": [
+        {
+          "book": {
+            "img": "images/7.png",
+            "bookName": "The Lonely Century",
+            "bookAuthor": "Noreena Hertz",
+            "time": "15-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/8.png",
+            "bookName": "Eat Better, Feel Better",
+            "bookAuthor": "Giada De Laurentiis",
+            "time": "13-minute read",
+            "reads": "19k reads"
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/9.png",
+            "bookName": "Dropshipping",
+            "bookAuthor": "James Moore",
+            "time": "12-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        }
+      ]
+    },
+    {
+      "title": "Featured audio blinks",
+      "books": [
+        {
+          "book": {
+            "img": "images/1.png",
+            "bookName": "Bring Your Human to Work",
+            "bookAuthor": "Erica Keswin",
+            "time": "13-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/2.png",
+            "bookName": "Beyond Entrepreneurship 2.0",
+            "bookAuthor": "Jim Collins & Bill Lazier",
+            "time": "15-minute read",
+            "reads": ""
+          },
+          "showAdd": "true",
+          "path": ""
+        },
+        {
+          "book": {
+            "img": "images/3.png",
+            "bookName": "Doesn’t Hurt to Ask",
+            "bookAuthor": "Trey Gowdy",
+            "time": "13-minute read",
+            "reads": "19k reads"
+          },
+          "showAdd": "true",
+          "path": ""
+        }
+      ]
+    }
+  ],
+  "bookDetail": {
+    "head": "Get the key ideas from",
+    "name": "Beyond Entrepreneurship 2.0",
+    "caption": "Turning Your Business into an Enduring Great Company",
+    "author": "By Jim Collins and Bill Lazier",
+    "read": "15-minute read",
+    "img": "images/2.png",
+    "buttons": [
+      {
+        "name": "Synopsis",
+        "textColor": "textColors.highEmphasis",
+        "borderColor": "primary.300"
+      },
+      {
+        "name": "Who is it for?",
+        "textColor": "textColors.mediumEmphasis",
+        "borderColor": "textColors.mediumEmphasis"
+      },
+      {
+        "name": "About the Author",
+        "textColor": "textColors.mediumEmphasis",
+        "borderColor": "textColors.mediumEmphasis"
+      }
+    ],
+    "summary": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world."
+  },
+  "footer": {
+    "content": ["Big ideas in small packages", "Start learning now"],
+    "options": [
+      {
+        "heading": "Editorial",
+        "content": ["Book lists","What is Nonfiction?","What to read next?","Benifits of reading"]
+      },
+      {
+        "heading": "Useful links",
+        "content": ["Pricing","Blinkist business","Gift cards","Blinkist magazine","Contact & help"]
+      },
+      {
+        "heading": "Company",
+        "content": ["About", "Careers", "Partners", "Code of Conduct"]
+      }
+    ],
+    "copyright": "© Blinkist 2021 Sitemap   |   Imprint   |   Terms of Service   |   Privacy Policies"
+  }
+}

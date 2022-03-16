@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "img": "/images/1.png",
+      "bookName": "Bring Your Human to Work",
+      "bookAuthor": "Erica Keswin",
+      "time": "13-minute read",
+      "reads": "",
+      "status": "finished",
+      "type": "trending"
+    },
+    {
+      "id": "2",
+      "img": "/images/11.png",
+      "bookName": "Employee to Entrepreneur",
+      "bookAuthor": "Steve Glaveski",
+      "time": "15-minute read",
+      "reads": "",
+      "status": "finished",
+      "type": "featured"
+    },
+    {
+      "id": "3",
+      "img": "/images/3.png",
+      "bookName": "Doesn’t Hurt to Ask",
+      "bookAuthor": "Trey Gowdy",
+      "time": "13-minute read",
+      "reads": "1.9k reads",
+      "status": "finished",
+      "type": "trending"
+    },
+    {
+      "id": "4",
+      "img": "/images/4.png",
+      "bookName": "The Fate of Food",
+      "bookAuthor": "Amanda Little",
+      "time": "12-minute read",
+      "reads": "16k reads",
+      "status": "reading",
+      "type": "just added"
+    },
+    {
+      "id": "5",
+      "img": "/images/5.png",
+      "bookName": "Lives of the Stoics",
+      "bookAuthor": "Ryan Holiday, Stephen Hansel",
+      "time": "13-minute read",
+      "reads": "",
+      "status": "reading",
+      "type": "just added"
+    },
+    {
+      "id": "6",
+      "img": "/images/6.png",
+      "bookName": "Loving Your Business",
+      "bookAuthor": "Debbie King",
+      "time": "13-minute read",
+      "reads": "",
+      "status": "reading",
+      "type": "just added"
+    },
+    {
+      "id": "7",
+      "img": "/images/2.png",
+      "bookName": "Beyond Entrepreneurship 2.0",
+      "bookAuthor": "Jim Collins & Bill Lazier",
+      "time": "13-minute read",
+      "reads": "1.9k reads",
+      "status": "reading",
+      "type": "trending"
+    },
+    {
+      "id": "8",
+      "img": "/images/7.png",
+      "bookName": "The Lonely Century",
+      "bookAuthor": "Noreena Hertz",
+      "time": "15-minute read",
+      "reads": "1.9k reads",
+      "status": "reading",
+      "type": "featured"
+    },
+    {
+      "id": "9",
+      "img": "/images/8.png",
+      "bookName": "Eat Better, Feel Better",
+      "bookAuthor": "Giada De Laurentiis",
+      "time": "13-minute read",
+      "reads": "1.9k reads",
+      "status": "reading",
+      "type": "featured"
+    },
+    {
+      "id": "10",
+      "img": "/images/9.png",
+      "bookName": "Dropshipping",
+      "bookAuthor": "James Moore",
+      "time": "12-minute read",
+      "reads": "",
+      "status": "reading",
+      "type": "featured"
+    }
+  ]
+}

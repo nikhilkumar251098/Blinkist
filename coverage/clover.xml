@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1647419012101" clover="3.2.0">
+  <project timestamp="1647419012102" name="All files">
+    <metrics statements="97" coveredstatements="78" conditionals="36" coveredconditionals="20" methods="41" coveredmethods="30" elements="174" coveredelements="128" complexity="0" loc="97" ncloc="97" packages="15" files="15" classes="15"/>
+    <package name="components.atoms.Typography">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="TypographyComponent.tsx" path="/home/nikhilk/blinkist-app/src/components/atoms/Typography/TypographyComponent.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="12" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="357" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.Banner">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Banner.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/Banner/Banner.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.ExploreModal">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="exploremodal.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/ExploreModal/exploremodal.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="34" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.FilledButton">
+      <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="filledbutton.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/FilledButton/filledbutton.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="45" count="11" type="stmt"/>
+        <line num="61" count="60" type="stmt"/>
+        <line num="77" count="60" type="stmt"/>
+        <line num="83" count="60" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.Footer">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="footer.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/Footer/footer.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="33" count="30" type="stmt"/>
+        <line num="40" count="130" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.InputField">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="inputfield.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/InputField/inputfield.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.NavButton">
+      <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="navbutton.tsx" path="/home/nikhilk/blinkist-app/src/components/molecules/NavButton/navbutton.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="42" count="34" type="stmt"/>
+        <line num="55" count="34" type="stmt"/>
+        <line num="63" count="34" type="stmt"/>
+        <line num="69" count="34" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.organisms.BookCard">
+      <metrics statements="27" coveredstatements="16" conditionals="13" coveredconditionals="3" methods="10" coveredmethods="5"/>
+      <file name="bookcard.tsx" path="/home/nikhilk/blinkist-app/src/components/organisms/BookCard/bookcard.tsx">
+        <metrics statements="27" coveredstatements="16" conditionals="13" coveredconditionals="3" methods="10" coveredmethods="5"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="53" count="6" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="74" count="19" type="stmt"/>
+        <line num="77" count="19" type="stmt"/>
+        <line num="78" count="13" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="82" count="19" type="stmt"/>
+        <line num="83" count="13" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="86" count="13" type="stmt"/>
+        <line num="89" count="19" type="stmt"/>
+        <line num="90" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="99" count="19" type="stmt"/>
+        <line num="102" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="components.organisms.BookDetail">
+      <metrics statements="21" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="5"/>
+      <file name="BookDetailView.tsx" path="/home/nikhilk/blinkist-app/src/components/organisms/BookDetail/BookDetailView.tsx">
+        <metrics statements="21" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="5"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="33" count="11" type="stmt"/>
+        <line num="34" count="11" type="stmt"/>
+        <line num="35" count="11" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="43" count="5" type="stmt"/>
+        <line num="46" count="11" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="55" count="11" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="132" count="33" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.organisms.Header">
+      <metrics statements="8" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="header.tsx" path="/home/nikhilk/blinkist-app/src/components/organisms/Header/header.tsx">
+        <metrics statements="8" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.organisms.Library">
+      <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <file name="library.tsx" path="/home/nikhilk/blinkist-app/src/components/organisms/Library/library.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.organisms.SelectedPage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SelectedPage.tsx" path="/home/nikhilk/blinkist-app/src/components/organisms/SelectedPage/SelectedPage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.BookDetailViewPage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="bookdetailviewpage.tsx" path="/home/nikhilk/blinkist-app/src/pages/BookDetailViewPage/bookdetailviewpage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.EnterpreneurshipPage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="EnterpreneurshipPage.tsx" path="/home/nikhilk/blinkist-app/src/pages/EnterpreneurshipPage/EnterpreneurshipPage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.LibraryPage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="librarypage.tsx" path="/home/nikhilk/blinkist-app/src/pages/LibraryPage/librarypage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
