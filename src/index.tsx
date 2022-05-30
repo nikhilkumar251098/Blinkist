@@ -5,12 +5,15 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import theme from "./Theme/theme";
+import Auth0ProviderWithHistory from "./Auth0ProviderWithHistory"
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <App />
+      <Auth0ProviderWithHistory >
+        <App />
+      </Auth0ProviderWithHistory>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

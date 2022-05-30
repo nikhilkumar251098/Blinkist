@@ -1,5 +1,5 @@
 import { AccessTimeOutlined,PersonOutlined } from "@mui/icons-material";
-import { Card, CardMedia, Box, CardContent } from "@mui/material";
+import { Card, CardMedia, Box, CardContent, Button, createSvgIcon, Typography } from "@mui/material";
 import { styled } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import TypographyComponent from "../../atoms/Typography/TypographyComponent";
@@ -49,6 +49,8 @@ interface ButtonProps {
   status?: string;
   onClick: Function;
 }
+
+const AddIcon= createSvgIcon(<path d="M6.5 6V0H8.5V6H14.5V8H8.5V14H6.5V8H0.5V6H6.5Z" />, "add" )
 
 const ButtonComponent = ({ status, onClick}: ButtonProps) => {
   if (status === undefined) {
@@ -139,7 +141,12 @@ const BookCard: React.FC<CardProps> = ({status, type} ) => {
                   (status !== undefined) ? <ButtonComponent onClick={() => handleFinished(book.id,book.status)} status={book.status} />
                   :
                   <Link to={`/detail/${book.id}`} >
-                  <FilledButton children="Add to Library" />
+                  <Button variant="contained" sx={{display:"flex", alignItems:"center", height:"52px", position: "relative", left:"-17px", width: "320px", top:"25px", bgcolor:"#0365F2", color:"white", textTransform:"none", textDecoration: "none", "&:hover":{bgcolor:"white", color:"#0365F2"} }}>
+                    <AddIcon sx={{position:"relative", top:"5px"}} />
+                    <Typography >
+                      Add to Library
+                    </Typography>
+                  </Button>
                   </Link>
                 }
                   </StyledCardContent>

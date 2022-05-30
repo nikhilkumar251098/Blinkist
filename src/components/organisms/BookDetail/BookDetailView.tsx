@@ -36,12 +36,17 @@ const BookDetailView = () => {
     const { data } = await axios.get(`http://localhost:3005/books/${id}`)
      return data;
   }
+
   useEffect(() => { 
     getBooks().then(response => {
       setBooks(response);
     })
   console.log("books=",book)
   }, [])
+
+  useEffect(() => { 
+  console.log("book specific",book)
+  }, [book])
 
   const handleFinished =async (bookid:string, status:string | undefined) => {
     const setStatus= (status === 'reading') ? 'finished' : 'reading';
@@ -51,6 +56,8 @@ const BookDetailView = () => {
       setBooks(response);
     })
   }
+
+  
 
   return (
     <Container sx={{ height: "80vh", mt: "8vh" }} data-testid="bookDetail">
@@ -93,6 +100,7 @@ const BookDetailView = () => {
           <img src={book.img} alt="Book" />
         </Box>
         <Box sx={{width: "50%",display: "flex",justifyContent: "space-between"}}>
+        <Link to="/" style={{ textDecoration: "none" }}>
           <FilledButton
             textColor="primary.500"
             children="Read now"
@@ -102,7 +110,11 @@ const BookDetailView = () => {
             textVariant="body1"
             hoverColor="primary.500"
             hoverTextColor="background.default"
+            onClick={() => handleFinished(book.id,book.status)}
+            disabled= {book.status=="reading"}
+            width= "100px"
           />
+          </Link>
           <Link to="/" style={{ textDecoration: "none" }}>
             <FilledButton
               textColor="textColors.highEmphasis"
@@ -110,6 +122,7 @@ const BookDetailView = () => {
               bgcolor="primary.300"
               textVariant="body1"
               onClick={() => handleFinished(book.id,book.status)}
+              disabled= {book.status=="finished"}
             />
           </Link>
           <NavButton

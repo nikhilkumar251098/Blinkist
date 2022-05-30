@@ -4,6 +4,7 @@ import React from "react";
 import TypographyComponent from "../../atoms/Typography/TypographyComponent";
 
 interface ButtonProps {
+  disabled?:boolean;
   textColor?: string;
   preElement?: JSX.Element;
   children?: string;
@@ -57,6 +58,7 @@ const FilledButton: React.FC<ButtonProps> = ({
   borderColor = "",
   isBorder = false,
   align,
+  disabled,
 }) => {
   const StyledButton = styled(Button)(
     sx({
@@ -64,8 +66,10 @@ const FilledButton: React.FC<ButtonProps> = ({
       display: "flex",
       justifyContent: align,
       color: textColor,
-      bgcolor: bgcolor,
-      width: width,
+      bgcolor: "transparent",
+      width: "320px",
+      pl: "0px",
+      ml:"0px",
       height: height,
       ":hover": {
         bgcolor: hoverColor,
@@ -86,6 +90,7 @@ const FilledButton: React.FC<ButtonProps> = ({
         variant={variant}
         onClick={onClick}
         style={isBorder ? border : undefined}
+        disabled={disabled}
       >
         {preElement}
         <TypographyComponent variant={textVariant} children={children} />

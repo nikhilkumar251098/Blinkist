@@ -26,20 +26,22 @@ const Header = () => {
   return (
     <>
       <Box data-testid="header"
-        sx={{ zIndex: 100, width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", mt: 1, mb: 5 }}
+        sx={{ zIndex: 1000, width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", pt: 1, mb: 10, position:"fixed", bgcolor:"white", top: 0 }}
       >
-        <Container sx={{ width: "65%" }}>
+        <Container sx={{ width: "65%" }} >
           <Grid container sx={{ display: "flex", alignItems: "center" }}>
             <Grid item xs={1.75}>
             <img src={logo} alt="logo" />
             </Grid>
             <Grid item xs={1}>
-              <NavButton
-                preElement={<img src="/images/search.png" alt="search" />}
-                textColor="grey.700"
-                hoverColor="background.default"
-                hoverTextColor="primary.300"
-              />
+              <Link to="/" style={{ textDecoration: "none" }}>
+                <NavButton
+                  preElement={<img src="/images/search.png" alt="search" />}
+                  textColor="grey.700"
+                  hoverColor="background.default"
+                  hoverTextColor="primary.300"
+                />
+              </Link>
             </Grid>
             <Grid item xs={1.5}>
               <NavButton

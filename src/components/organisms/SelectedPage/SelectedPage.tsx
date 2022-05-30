@@ -11,7 +11,7 @@ const SelectedPage= () => {
   return (
     <Container data-testid="pageContent">
         <Banner />
-        <Box width="100%" sx={{ mt: 8, display: 'flex' }}>
+        <Box width="300%" sx={{ mt: 8, display: 'flex' }}>
             <InputField url="images/search.png" alt="Search" text="Search by title or author" />
         </Box>
         <Box width="100%" sx={{ mt: 15 }}>
