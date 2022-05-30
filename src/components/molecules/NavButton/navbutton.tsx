@@ -36,7 +36,6 @@ const NavButton: React.FC<ButtonProps> = ({
   bgcolor,
   align,
   height,
-  borderBottom = false,
   borderHover = true,
 }) => {
   const StyledNavButton = styled(Button)(

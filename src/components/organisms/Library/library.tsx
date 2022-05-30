@@ -48,13 +48,13 @@ function allyProps(index: number) {
 
 const Library = () => {
   const [value, setValue] = useState<number>(0)
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
 
   return (
     <RootContainer data-testid="library">
-      <Box sx={{ width: "95%", ml: 4 }}>
+      <Box sx={{ width: "95%", ml: 4, marginTop:"100px" }}>
         <TypographyComponent
           variant="h1"
           children="My Library"

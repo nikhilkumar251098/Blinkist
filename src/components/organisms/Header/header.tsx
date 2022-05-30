@@ -3,6 +3,7 @@ import { Avatar, Box, Container, Grid } from "@mui/material";
 import logo from "../../../assets/images/Blinkist.png";
 import NavButton from "../../molecules/NavButton/navbutton";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 import ExploreModal from "../../molecules/ExploreModal/exploremodal";
 
 const Header = () => {
@@ -16,9 +17,11 @@ const Header = () => {
     setExploreModal(!exploreModal);
   };
 
+  const { logout } = useAuth0();
+
   const avatar = (
     <>
-      <Avatar sx={{ bgcolor: "#69A6E3", color: "white" }}>N</Avatar>
+      <Avatar onClick={() => logout({returnTo: window.location.origin})} sx={{ bgcolor: "#69A6E3", color: "white" }}>N</Avatar>
       {arrowDownIcon}
     </>
   );
@@ -28,20 +31,18 @@ const Header = () => {
       <Box data-testid="header"
         sx={{ zIndex: 1000, width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", pt: 1, mb: 10, position:"fixed", bgcolor:"white", top: 0 }}
       >
-        <Container sx={{ width: "65%" }} >
+        <Container sx={{ width: "65%" }}>
           <Grid container sx={{ display: "flex", alignItems: "center" }}>
             <Grid item xs={1.75}>
             <img src={logo} alt="logo" />
             </Grid>
             <Grid item xs={1}>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <NavButton
-                  preElement={<img src="/images/search.png" alt="search" />}
-                  textColor="grey.700"
-                  hoverColor="background.default"
-                  hoverTextColor="primary.300"
-                />
-              </Link>
+              <NavButton
+                preElement={<img src="/images/search.png" alt="search" />}
+                textColor="grey.700"
+                hoverColor="background.default"
+                hoverTextColor="primary.300"
+              />
             </Grid>
             <Grid item xs={1.5}>
               <NavButton

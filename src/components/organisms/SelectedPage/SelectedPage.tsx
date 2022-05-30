@@ -10,6 +10,7 @@ const SelectedPage= () => {
 
   return (
     <Container data-testid="pageContent">
+      <Box sx={{ width: "95%", ml: 4, marginTop:"100px" }}>
         <Banner />
         <Box width="300%" sx={{ mt: 8, display: 'flex' }}>
             <InputField url="images/search.png" alt="Search" text="Search by title or author" />
@@ -19,21 +20,22 @@ const SelectedPage= () => {
               <TypographyComponent variant="h1" children="Trending Blinks" color="textColors.highEmphasis" />
             </Box>
             <Grid container mt={1} sx={{margin: 'auto'}} spacing={6}>
-            <BookCard type='trending' showFinished= {true}  />
-        </Grid>
-        <Box sx={{ mb:4 }}>
+              <BookCard type='trending' showFinished= {true}  />
+            </Grid>
+            <Box sx={{ mb:4 }}>
               <TypographyComponent variant="h1" children="Just Added" color="textColors.highEmphasis" />
-          </Box>
+            </Box>
             <Grid container mt={1} sx={{margin: 'auto'}} spacing={6}>
-            <BookCard type='just added' showFinished= {true}  />
-        </Grid>
-        <Box sx={{ mb:4 }}>
-          <TypographyComponent variant="h1" children="Featured Blinks" color="textColors.highEmphasis" />
-        </Box>
-      <Grid container mt={1} sx={{margin: 'auto'}} spacing={6}>
-        <BookCard type='featured' showFinished= {true}  />
-      </Grid>
-  </Box>
+              <BookCard type='just added' showFinished= {true}  />
+            </Grid>
+            <Box sx={{ mb:4 }}>
+              <TypographyComponent variant="h1" children="Featured Blinks" color="textColors.highEmphasis" />
+            </Box>
+            <Grid container mt={1} sx={{margin: 'auto'}} spacing={6}>
+              <BookCard type='featured' showFinished= {true}  />
+            </Grid>
+          </Box>
+      </Box>
     </Container>
   )
 }

@@ -6,7 +6,7 @@ import React from "react"
 
 interface Props {}
 
-const EnterpreneurshipPage = (props: Props) => {
+const EnterpreneurshipPage = (_props: Props) => {
   return (
     <>
       <Header />

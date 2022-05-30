@@ -6,7 +6,7 @@ import React from "react"
 
 interface Props {}
 
-const BookDetailViewPage = (props: Props) => {
+const BookDetailViewPage = (_props: Props) => {
   return (
     <>
       <Header />
